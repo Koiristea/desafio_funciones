@@ -27,8 +27,7 @@ document.addEventListener('keydown', function(event) {
 
     if (event.key === 'q' || event.key === 'w' || event.key === 'e') {
         const newDiv = document.createElement('div');
-        newDiv.style.width = '200px';
-        newDiv.style.height = '200px';
+        newDiv.classList.add('boxes');
         newDiv.style.border = '1px solid black';
         if (event.key === 'q') {
             newDiv.style.backgroundColor = 'purple';
