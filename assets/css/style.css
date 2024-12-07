@@ -1,0 +1,33 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+}
+
+#square1 {
+    background-color: blue;
+}
+
+#square2 {
+    background-color: red;
+}
+
+#square3 {
+    background-color: green;
+}
+
+#square4 {
+    background-color: yellow;
+}
+
+#key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
